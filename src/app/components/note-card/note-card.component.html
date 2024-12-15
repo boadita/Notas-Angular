@@ -14,8 +14,8 @@
       <p>{{note.date | date}}</p>
       <p>{{note.content}}</p>
       <div class="card-actions justify-end">
-        <button [routerLink]="['/edit-note/'+note.id]" routerLinkActive="router-link-active"  class="btn">Edit</button>
-        <button (click)="onDelete(note.id)" class="btn btn-error">Delete</button>
+        <button [routerLink]="['/edit-note/'+note.id]" routerLinkActive="router-link-active"  class="btn rounded-full">Edit</button>
+        <button (click)="onDelete(note.id)" class="btn btn-error rounded-full">Delete</button>
       </div>
     </div>
   </div>
